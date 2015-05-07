@@ -42,4 +42,4 @@ Ruby
 
 [trailing comma example]: /style/ruby/sample.rb#L57
 [required kwargs]: /style/ruby/sample.rb#L24
-[class definition example]: /style/ruby/sample.rb#L44
+[class definition example]: /style/ruby/sample.rb#L121
