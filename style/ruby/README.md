@@ -11,6 +11,7 @@ Ruby
 * Avoid explicit return statements.
 * Avoid using semicolons.
 * Avoid bang (!) method names. Prefer descriptive names.
+* Avoid `class A::B`, [Example][class definition example]
 * Don't use `self` explicitly anywhere except class methods (`def self.method`)
   and assignments (`self.attribute =`).
 * Prefer `detect` over `find`.
@@ -41,3 +42,4 @@ Ruby
 
 [trailing comma example]: /style/ruby/sample.rb#L57
 [required kwargs]: /style/ruby/sample.rb#L24
+[class definition example]: /style/ruby/sample.rb#L44
