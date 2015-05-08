@@ -11,10 +11,10 @@ Ruby
 * Avoid explicit return statements.
 * Avoid using semicolons.
 * Avoid bang (!) method names. Prefer descriptive names.
-* Avoid defining classes and modules using shorthand nesting (class A::B)
-  [Example][class definition example]
 * Don't use `self` explicitly anywhere except class methods (`def self.method`)
   and assignments (`self.attribute =`).
+* Prefer nested class and module definitions instead of the shorthand version
+  [Example][class definition example]
 * Prefer `detect` over `find`.
 * Prefer `select` over `find_all`.
 * Prefer `map` over `collect`.
